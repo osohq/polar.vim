@@ -23,8 +23,6 @@ For Neovim:
 git clone https://github.com/weihanglo/polar.vim ~/.local/share/nvim/site/pack/plugins/start/rust.vim
 ```
 
-###
-
 ### [vim-plug]
 
 ```vim
@@ -36,6 +34,10 @@ Plug 'weihanglo/polar.vim'
 ```vim
 call dein#add('weihanglo/polar.vim')
 ```
+
+## Screenshots
+
+![](screenshot.png)
 
 ## License
 
