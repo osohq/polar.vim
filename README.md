@@ -14,13 +14,13 @@ This is a vim plugin that provides [Polar] with
 For Vim 8 or newer:
 
 ```console
-git clone https://github.com/weihanglo/polar.vim ~/.vim/pack/plugins/start/rust.vim
+git clone https://github.com/weihanglo/polar.vim ~/.vim/pack/plugins/start/polar.vim
 ```
 
 For Neovim:
 
 ```console
-git clone https://github.com/weihanglo/polar.vim ~/.local/share/nvim/site/pack/plugins/start/rust.vim
+git clone https://github.com/weihanglo/polar.vim ~/.local/share/nvim/site/pack/plugins/start/polar.vim
 ```
 
 ### [vim-plug]
