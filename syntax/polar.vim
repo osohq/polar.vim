@@ -10,7 +10,8 @@ endif
 syn match   polarInlineQuery    /?=/
 syn match   polarSemicolon      /;/
 
-syn keyword polarKeyword        and cut debug forall if in isa matches mod new not or print rem
+syn keyword polarBlock          resource test setup
+syn keyword polarKeyword        assert assert_not and if iff in matches not or
 
 syn keyword polarTodo           contained TODO FIXME NOTE
 syn region  polarComment        start=/#/ end=/$/ contains=polarTodo,@Spell
@@ -50,3 +51,4 @@ hi def link polarEscape         Special
 hi def link polarHeadName       Function
 hi def link polarHeadArgType    Type
 hi def link polarClassName      Type
+hi def link polarBlock          Type
