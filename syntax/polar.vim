@@ -10,8 +10,8 @@ endif
 syn match   polarInlineQuery    /?=/
 syn match   polarSemicolon      /;/
 
-syn keyword polarBlock          resource test setup
-syn keyword polarKeyword        assert assert_not and if iff in matches not or
+syn keyword polarBlock          resource test setup global
+syn keyword polarKeyword        assert assert_not and if iff in matches not or declare extends
 
 syn keyword polarTodo           contained TODO FIXME NOTE
 syn region  polarComment        start=/#/ end=/$/ contains=polarTodo,@Spell
